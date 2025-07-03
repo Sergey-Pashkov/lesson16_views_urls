@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Главная страница</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'blog/style.css' %}">
+</head>
+<body>
+    <h1>Добро пожаловать в мой блог!</h1>
+    <!-- Ссылки на другие страницы -->
+    <a href="{% url 'about' %}">О нас</a> |
+    <a href="{% url 'post_list' %}">Список постов</a>
+</body>
+</html>

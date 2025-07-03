@@ -1,0 +1,37 @@
+/* filepath: blog/static/blog/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0 20px;
+}
+h1 {
+    color: #333;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+a:hover {
+    text-decoration: underline;
+}
+.container {
+    background: #fff;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056b3;
+}

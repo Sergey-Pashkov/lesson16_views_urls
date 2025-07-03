@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>О нас</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'blog/style.css' %}">
+</head>
+<body>
+    <h1>О проекте</h1>
+    <p>Это учебный блог на Django.</p>
+    <a href="{% url 'home' %}">На главную</a>
+</body>
+</html>
